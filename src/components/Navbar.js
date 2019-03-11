@@ -3,7 +3,6 @@ import {Link} from 'react-router-dom';
 import logo from '../logo.svg'
 import styled from 'styled-components';
 import {ButtonContainer} from './Button';
-
 export default class Navbar extends Component {
   render() {
     return (
@@ -16,14 +15,18 @@ export default class Navbar extends Component {
             <img  src={logo} alt="store" /* className="navbar-brand" *//>
             </Link>
             <ul className="navbar-nav align-items-center">
-              <li className="nav-item ml-2">
+            
+              <h1 className="nav-link">TEA HOUSE</h1>
+          
+              <li className="nav-item ml-5">
               <Link to="/" className="nav-link">products</Link>
               </li>
+              
               <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">about us</Link>
+              <Link to="/aboutus" className="nav-link">about us</Link>
               </li>
               <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">FAQ</Link>
+              <Link to="/faq" className="nav-link">FAQs</Link>
               </li>
               <li className="nav-item ml-2">
               <Link to="/" className="nav-link">blogs</Link>

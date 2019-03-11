@@ -10,6 +10,8 @@ import ProductList from './components/ProductList';
 import Default from './components/Default';
 import Modal from './components/Modal';
 import Footer from './components/Footer';
+import AboutUs from './components/Information/AboutUs';
+import FAQ from './components/Information/FAQ';
 
 class App extends Component {
   render() {
@@ -21,7 +23,10 @@ class App extends Component {
           <Route exact path="/" component={ProductList} > </Route>
           <Route path="/details" component={Details} > </Route>
           <Route path="/cart" component={Cart} > </Route>
+          <Route path="/aboutus" component={AboutUs} > </Route>
+          <Route path="/faq" component={FAQ} > </Route>
           <Route  component={Default} > </Route>
+
         </Switch>
         <Footer />
         <Modal />

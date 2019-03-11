@@ -13,41 +13,40 @@ export default class Footer extends Component {
           <div className="row text-center text-md-left mt-3 pb-3">
             {/* Grid column */}
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">Company name</h6>
-              <p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet, consectetur
-                adipisicing elit.</p>
+              <h6 className="text-uppercase mb-4 font-weight-bold">Tea House</h6>
+              <p>Our mission is to make sure you get the best tasting cup of tea possible.</p>
             </div>
             {/* Grid column */}
             <hr className="w-100 clearfix d-md-none" />
             {/* Grid column */}
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">Products</h6>
+              <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
               <p>
-                <a href="#!">MDBootstrap</a>
+                <a href="#!">Blogs</a>
               </p>
               <p>
-                <a href="#!">MDWordPress</a>
+                <a href="#!">Events</a>
               </p>
               <p>
-                <a href="#!">BrandFlow</a>
+                <a href="#!">Calendar</a>
               </p>
               <p>
-                <a href="#!">Bootstrap Angular</a>
+                <a href="#!">Terms&Conditions</a>
               </p>
             </div>
             {/* Grid column */}
             <hr className="w-100 clearfix d-md-none" />
             {/* Grid column */}
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">Useful links</h6>
+              <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
               <p>
-                <a href="#!">Your Account</a>
+                <a href="/aboutus">About Us</a>
               </p>
               <p>
-                <a href="#!">Become an Affiliate</a>
+                <a href="faq">FAQs</a>
               </p>
               <p>
-                <a href="#!">Shipping Rates</a>
+                <a href="#!">Shipping</a>
               </p>
               <p>
                 <a href="#!">Help</a>
@@ -59,11 +58,11 @@ export default class Footer extends Component {
             <div className="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Contact</h6>
               <p>
-                <i className="fas fa-home mr-3" /> New York, NY 10012, US</p>
+                <i className="fas fa-home mr-3" /> 1234 Patricia, Urbandale, 55323 IA, US</p>
               <p>
-                <i className="fas fa-envelope mr-3" /> info@gmail.com</p>
+                <i className="fas fa-envelope mr-3" /> teahouse@teahouse.com </p>
               <p>
-                <i className="fas fa-phone mr-3" /> + 01 234 567 88</p>
+                <i className="fas fa-phone mr-3" /> 515-123-4545</p>
               <p>
                 <i className="fas fa-print mr-3" /> + 01 234 567 89</p>
             </div>
