@@ -13,23 +13,26 @@ export default class Navbar extends Component {
             Creative Commons (Attribution 3.0 Unported);
             https://www.iconfinder.com/Makoto_msk */}
             <Link to="/">
-            <img  src={logo} alt="store" className="navbar-brand"/>
+            <img  src={logo} alt="store" /* className="navbar-brand" *//>
             </Link>
             <ul className="navbar-nav align-items-center">
               <li className="nav-item ml-2">
               <Link to="/" className="nav-link">products</Link>
               </li>
               <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">Tea House</Link>
+              <Link to="/" className="nav-link">about us</Link>
               </li>
               <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">FQA</Link>
+              <Link to="/" className="nav-link">FAQ</Link>
               </li>
               <li className="nav-item ml-2">
               <Link to="/" className="nav-link">blogs</Link>
               </li>
               <li className="nav-item ml-2">
               <Link to="/" className="nav-link">events</Link>
+              </li>
+              <li className="nav-item ml-2">
+              <Link to="/" className="nav-link">shipping</Link>
               </li>
             </ul>
 
@@ -47,11 +50,11 @@ export default class Navbar extends Component {
 }
 
 const NavWrapper = styled.nav`
-background: var(--mainBlue);
+background:  rgb(231, 188, 71);
 .nav-link{
-  color: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
   font-size:1.3rem;
-  text-transform:capitalize
+  text-transform:capitalize;
 }
 `
 
