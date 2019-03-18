@@ -40,10 +40,11 @@ export default class Footer extends Component {
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
               <p>
-                <a href="/aboutus">About Us</a>
+                
+                <Link to="/aboutus">About Us</Link>
               </p>
               <p>
-                <a href="faq">FAQs</a>
+                <Link to="/faq">FAQs</Link>
               </p>
               <p>
                 <a href="#!">Shipping</a>
@@ -77,7 +78,7 @@ export default class Footer extends Component {
               {/*Copyright*/}
               <p className="text-center text-md-left">© 2018 Copyright:
                 <a href="https://mdbootstrap.com/education/bootstrap/">
-                  <strong> MDBootstrap.com</strong>
+                  <strong> teahouse@teahouse.com</strong>
                 </a>
               </p>
             </div>
