@@ -7,7 +7,9 @@ export default function Empty() {
         <div className="col-10 mx-auto text-center">
             <img src="img/empty-cart.png"/>
         </div>
-      </div>    
+      </div>   
+      <br/> 
+      <br/> 
     </div>
   )
 }
