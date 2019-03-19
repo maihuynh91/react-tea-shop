@@ -24,6 +24,9 @@ export default class Footer extends Component {
               <p>
                 <Link to="/blog">Blogs</Link>
               </p>
+              <p>
+                <Link to="/calendar">Calendar</Link>
+              </p>
               
               <p>
               <Link to="/privacy">Privacy</Link>
