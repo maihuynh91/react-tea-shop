@@ -29,13 +29,11 @@ export default class Navbar extends Component {
               <Link to="/faq" className="nav-link">FAQs</Link>
               </li>
               <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">blogs</Link>
+              <Link to="/calendar" className="nav-link">calendar</Link>
               </li>
+             
               <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">events</Link>
-              </li>
-              <li className="nav-item ml-2">
-              <Link to="/" className="nav-link">shipping</Link>
+              <Link to="/shipping" className="nav-link">shipping</Link>
               </li>
             </ul>
 

@@ -14,7 +14,7 @@ export default class Footer extends Component {
             {/* Grid column */}
             <div className="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Tea House</h6>
-              <p>Our mission is to make sure you get the best tasting cup of tea possible.</p>
+              <p>"Our mission is to make sure you get the best tasting cup of tea possible."</p>
             </div>
             {/* Grid column */}
             <hr className="w-100 clearfix d-md-none" />
@@ -22,23 +22,21 @@ export default class Footer extends Component {
             <div className="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
               <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
               <p>
-                <a href="#!">Blogs</a>
+                <Link to="/blog">Blogs</Link>
+              </p>
+              
+              <p>
+              <Link to="/privacy">Privacy</Link>
               </p>
               <p>
-                <a href="#!">Events</a>
-              </p>
-              <p>
-                <a href="#!">Calendar</a>
-              </p>
-              <p>
-                <a href="#!">Terms&Conditions</a>
+                <Link to="/terms">Terms&Conditions</Link>
               </p>
             </div>
             {/* Grid column */}
             <hr className="w-100 clearfix d-md-none" />
             {/* Grid column */}
             <div className="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-              <h6 className="text-uppercase mb-4 font-weight-bold">Useful Info</h6>
+              <h6 className="text-uppercase mb-4 font-weight-bold">Services</h6>
               <p>
                 
                 <Link to="/aboutus">About Us</Link>
@@ -47,10 +45,10 @@ export default class Footer extends Component {
                 <Link to="/faq">FAQs</Link>
               </p>
               <p>
-                <a href="#!">Shipping</a>
+                <Link to="/shipping">Shipping</Link>
               </p>
               <p>
-                <a href="#!">Help</a>
+                <Link to="/help">Help</Link>
               </p>
             </div>
             {/* Grid column */}
