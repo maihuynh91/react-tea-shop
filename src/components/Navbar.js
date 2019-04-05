@@ -18,21 +18,25 @@ export default class Navbar extends Component {
             
               <h1 className="nav-link">TEA HOUSE</h1>
           
-              <li className="nav-item ml-5">
-              <Link to="/" className="nav-link">products</Link>
+              <li className="nav-item ml-3">
+              <Link to="/" className="nav-link">home</Link>
+              </li>
+
+              <li className="nav-item ml-1">
+              <Link to="/products" className="nav-link">products</Link>
               </li>
               
-              <li className="nav-item ml-2">
+              <li className="nav-item ml-1">
               <Link to="/aboutus" className="nav-link">about us</Link>
               </li>
-              <li className="nav-item ml-2">
+              <li className="nav-item ml-1">
               <Link to="/faq" className="nav-link">FAQs</Link>
               </li>
-              <li className="nav-item ml-2">
-              <Link to="/calendar" className="nav-link">calendar</Link>
+              <li className="nav-item ml-1">
+              <Link to="/blog" className="nav-link">blogs</Link>
               </li>
              
-              <li className="nav-item ml-2">
+              <li className="nav-item ml-1">
               <Link to="/shipping" className="nav-link">shipping</Link>
               </li>
             </ul>

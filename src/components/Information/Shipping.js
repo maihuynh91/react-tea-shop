@@ -2,12 +2,11 @@ import React from 'react'
 
 export default function Shipping() {
   return (
-    <div>
-      <br/>
-      <br/>
-      <br/>
-        <h1>Shipping:</h1>
-        <br/>
+    <div className="row">
+     
+        <div className="col-10 mx-auto text-center">
+            <img src="img/empty-cart.png"/>
+       
       <h4>Orders will be shipped from our warehouse on the following business day (Monday–Friday) after payment is verified. </h4>
       <hr/>
       <h3>Within U.S shipping</h3>
@@ -20,7 +19,7 @@ export default function Shipping() {
       <hr/>
 
       <h4>Customers pay via debit card, credit card directly or through our partner PayPal. </h4>
-
+      </div>
       <br/>
       <br/>
       <br/>

@@ -77,7 +77,7 @@ export default class Footer extends Component {
             {/* Grid column */}
             <div className="col-md-7 col-lg-8">
               {/*Copyright*/}
-              <p className="text-center text-md-left">© 2018 Copyright:
+              <p className="text-center text-md-left">© 2019 Copyright:
                 <a href="https://mdbootstrap.com/education/bootstrap/">
                   <strong> teahouse@teahouse.com</strong>
                 </a>

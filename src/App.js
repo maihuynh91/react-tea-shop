@@ -18,6 +18,7 @@ import Terms_Conditions from './components/Information/Terms_Conditions';
 import Privacy from './components/Information/Privacy';
 import Blog from './components/Information/Blog';
 import Calendar from './components/Information/Calendar';
+import Home from './components/Home';
 
 class App extends Component {
   render() {
@@ -26,7 +27,8 @@ class App extends Component {
 
         <Navbar />
         <Switch>
-          <Route exact path="/" component={ProductList} > </Route>
+          <Route exact path = "/" component={Home}></Route>
+          <Route path="/products" component={ProductList} > </Route>
           <Route path="/details" component={Details} > </Route>
           <Route path="/cart" component={Cart} > </Route>
           <Route path="/aboutus" component={AboutUs} > </Route>
