@@ -51,7 +51,7 @@ export default class Footer extends Component {
                 <Link to="/shipping">Shipping</Link>
               </p>
               <p>
-                <Link to="/help">Help</Link>
+                <Link to="/help">Contact</Link>
               </p>
             </div>
             {/* Grid column */}

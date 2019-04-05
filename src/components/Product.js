@@ -82,7 +82,7 @@ const ProductWrapper = styled.div`
     box-shadow:2px 2px 5px 0px rgba(0,0,0,0.2);
   }
   .card-footer{
-    background: rgba(247,247,247);
+    background: rgba(247,247,240);
   }
 }
 .img-container{
