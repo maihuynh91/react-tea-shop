@@ -4,25 +4,25 @@ import styled from 'styled-components';
 export default function Privacy() {
   return (
     <TermWrapper>
-    <div className="dv">
-
-    <h3 className="warn">WARNING!!! THIS IS A CLASS PROJECT (NOT A REAL WEBSITE)............DO NOT MAKE PURCHASE!!!</h3>
-     <br/>
-  
+    <div class="card" >
+      <img src="img/privacy_policy.jpg" class="card-img-top" alt="image" height="200px" width="600px"/>
+      <div class="card-body">
+ 
       <h2>We will not share your personal information with any outside parties. </h2>
       <hr/>
-      <h2>All orders are placed on a secure server. Any information that we collect from our visitors in our store or online will be kept anonymously and used solely for our statistical purposes to help us improve the shopping experience for our customers.</h2> 
+      <h2>All orders are placed on a secure server. </h2>
+      <hr/>
+        <h2>Any information that we collect from our visitors in our store or online will be kept anonymously and used solely for our statistical purposes to help us improve the shopping experience for our customers.</h2> 
       <hr/>
       <h2>If you have any privacy concerns, please contact us at <span className="email">privacy@teahouse.com.</span> </h2>
-      <hr/>
-     
+    </div>
     </div>
     </TermWrapper>
   )
 }
 
 const TermWrapper = styled.div`
-.dv{
+.{
   padding: 4em;
   background: papayawhip;
 }

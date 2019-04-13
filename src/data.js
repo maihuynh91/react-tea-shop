@@ -7,7 +7,7 @@ export const storeProducts = [
     price: 19,
     company: "Republic of Ireland",
     info:
-    "Our Irish Breakfast combines hearty black teas from Ceylon (Sri Lanka) and Assam (India) to get your morning off to a bright start. As its name implies, Irish Breakfast black tea blend is an ideal accompaniment to a morning meal. It seamlessly blends the citrusy notes of a high-grown Ceylon with the malty underscore of a pungent Assam.",
+  "Herbal Supplement. Since 1974. Created by herbalists. Laxative teas. Relieves occasional constipation. Senna stimulant laxative. Naturally caffeine free. Wrapped tea bags. USDA organic. Personality: Confident and empowering, a relief to be around. Herbal Power: Relieves occasional constipation, generally produces a bowel movement within 6-12 hours. Reason to Love: Just about everyone experiences constipation occasionally-uncomfortable, embarrassing and a real damper on life. For gentle, overnight relief, we love our senna-based herbal tea. Used for thousands of years to get your movement moving again, senna works be gently stimulating your intestines and aiding your body's natural elimination process.",
     inCart: false,
     count: 0,
     total: 0
@@ -19,7 +19,7 @@ export const storeProducts = [
     price: 35,
     company: "England",
     info:
-      "English Breakfast is a full-bodied black tea blend that goes well with a traditional English breakfast. The original cup was made with black Keemun tea from Anhui province in China. Across many generations, plenty of different interpretations of this famous blend have been made. Our English Breakfast stays close to the classic.",
+      "Novel Teas Pouches contain 25 teabags individually tagged with literary quotes from the world over, made with English Breakfast tea. There is no better company than a steaming cup of tea as you open the cover of a favorite classic or turn the page of the latest thriller. Whether traveling to distant times and far off lands or discovering new characters in a nearby locale, a soothing cup of tea makes the journey more pleasurable and the memory lasting. Novel Teas ~ natures story unfolded in every leaf. Read ‘em and steep!",
     inCart: false,
     count: 0,
     total: 0
@@ -55,7 +55,7 @@ export const storeProducts = [
     price: 29,
     company: "New Zealand",
     info:
-      "Liven up your day with our bright, cheerful and refreshing Citrus Mint Green tea. This effervescent blend combines the sweet, smooth, well-rounded feel of green tea with the fresh zest of lemon and orange, finished off with the cool gentleness of spearmint.",
+      "In this Organic Ginger tea, there is a unique blend of herbs and spices to complement ginger's piquant flavor. Tea House's Ginger tea tastes delicious and offers the highest quality of a timeless herb. Drinking ginger tea can:Help the body absorb nutrients, Help with weight loss,Help fight cancer,Relieve stress.",
     inCart: false,
     count: 0,
     total: 0
@@ -67,7 +67,7 @@ export const storeProducts = [
     price: 27,
     company: "Finland",
     info:
-      "Black Dragon Pearls is a rare, hand-rolled variety of black tea with a smooth, rich and chocolatey taste. Hailing from the Yunnan province, this black tea version of the popular Dragon Pearl is comprised of only the highest quality leaves and buds, expertly rolled into a large pearl-like shape. Black Dragon Pearls are naturally sweet and smooth, with a touch of earthiness. ",
+      "100% NATURAL & GREEN TEA LEAVES - Exclusive Long Leaf Green Tea rich with Natural Anti-Oxidants & Flavonoids. Hand-plucked & produced in high elevation tea plantations in the Himalayas. Discover the Taste of Purity with this loose tea. Low-Caffeine content tea which can be enjoyed anytime of the day. Unlike green tea organic, this loose leaf tea makes for a great detox cleanse tea.",
     inCart: false,
     count: 0,
     total: 0
@@ -79,7 +79,7 @@ export const storeProducts = [
     price: 25,
     company: "USA",
     info:
-      "Finally, the wait is over! A long-time customer request, Fiery Cinnamon Spice is here to stay! This tea packs the perfect punch of cinnamon flavor, blended with Ceylon tea, orange peels, and cloves for an amped up, kick-in-the-palate cinnamon experience. Perfect to heat you up on a cold day, or just wake up your palate on an early morning. This tea will bring a smile to any cinnamon lovers face",    inCart: false,
+     "Dragonwell is considered to be one of the world's finest green teas, picked and hand processed in early spring. Its large flat leaves produce a soothing aroma when brewed. They have a golden sheen and give a pale green infusion that's lightly sweet and tremendously fragrant, with a slight hint of chestnut. This pure organic green tea will captivate you and keep you coming back for more.",
     count: 0,
     total: 0
   },

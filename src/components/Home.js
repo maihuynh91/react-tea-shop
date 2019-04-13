@@ -51,7 +51,7 @@ export default class Home extends Component {
                         </MDBCarouselItem>
                     </MDBCarouselInner>
                 </MDBCarousel>
-                <h2>....You can't buy Happiness, but you can buy TEA and that's kind of the same Thing</h2>
+                <h2> You can't buy Happiness, but you can buy TEA and that's kind of the same Thing</h2>
             </MDBContainer>
         )
     }

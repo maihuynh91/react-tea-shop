@@ -1,12 +1,12 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export const FAQ = () => (  
 
-      <div className="container">
-      <br/>
-<br/>
-<br/>
-      <h2> Do you really use only natural, ingredients? </h2>
+      <div class="card" >
+      <img src="img/faq2.png" class="card-img-top" alt="image" height="200px" width="600px"/>
+      <div class="card-body">
+        <h2> Do you really use only natural, ingredients? </h2>
 	<h5>Definitely! We only use clean and natural ingredients that we trust to produce the best products to our customers.  </h5>
       <hr/>
      <h2>How Long Will It Take to Get My Package?</h2>
@@ -17,11 +17,10 @@ export const FAQ = () => (
   <hr/>
   <h2>Do You Ship Internationally? </h2>
       <h5>Yes, we ship internationally. </h5>
-<br/>
-<br/>
-<br/>
-      </div>
 
+       
+      </div>
+    </div>
     );
 
 export default FAQ;
